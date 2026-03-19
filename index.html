@@ -1,27 +1,71 @@
-<!DOCTYPE html>
+<!-- Declare that this is an HTML5 document-->
+<!doctype html>
+
+<!-- Root element  the page. lang="en" tells the browser the content is in English-->
 <html lang="en">
-    <head>
-        <meta charset="UTF8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>SportZone - Your Sport World</title>
-    </head>
-    <body>
-        <!-- Everything the user sees goes here -->
-        <header>
-            <nav>
-                <a href="#">SportZone</a>
-                <a href="#news">News</a>
-                <a href="#teams">Teams</a>
-                <a href="#results">Results</a>
-            </nav>
-        </header>
-        <!--Main content goes here-->
-        <main>
-            <!-- Hero section: main banner of the page -->
-             <section id="hero">
-                <h1>Welcome to SportZone</h1>
-                <p>Your go-to source for sports news and results.</p>
-             </section>
-        </main>
-    </body>
+  <head>
+    <!-- Allows special characters like tildes and ñ-->
+    <meta charset="UTF8" />
+
+    <!-- Makes the page responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Text that appears in the browser tab -->
+    <title>SportZone - Your Sport World</title>
+  </head>
+  <body>
+    <!-- Everything the user sees goes here -->
+    <header>
+      <nav>
+        <a href="#">SportZone</a>
+        <a href="#news">News</a>
+        <a href="#teams">Teams</a>
+        <a href="#results">Results</a>
+      </nav>
+    </header>
+
+    <!--Main content goes here-->
+    <main>
+      <!-- Hero section: main banner of the page -->
+      <section id="hero">
+        <h1>Welcome to SportZone</h1>
+        <p>Your go-to source for sports news and results.</p>
+      </section>
+
+      <!-- News section: latest sports news -->
+      <section id="news">
+        <h2>Latest News</h2>
+        <article>
+          <h3>Barcelona wins Champions League</h3>
+          <p>An incredible match decided in extra time...</p>
+        </article>
+        <article>
+          <h3>Nadal announces retirement</h3>
+          <p>The legend of tennis says goodbye...</p>
+        </article>
+      </section>
+
+      <!-- Teams section: featured sports teams -->
+      <section id="teams">
+        <h2>Featured Teams</h2>
+        <p>Barcelona - Football</p>
+        <p>Lakers - Basketball</p>
+        <p>Serena Williams - Tennis</p>
+      </section>
+
+      <!-- Results section: latest sports results -->
+      <section id="results">
+        <h2>Latest Results</h2>
+        <p>Barcelona 3-1 Real Madrid</p>
+        <p>Lakers 112-98 Bulls</p>
+        <p>Serena Williams wins Wimbledon</p>
+      </section>
+    </main>
+
+    <!-- Footer: bottom section of the page -->
+    <footer>
+      <p>SportZone 2026 - Built with HTML, CSS and JavaScript</p>
+      <p>Made by Valeri Zambrano</p>
+    </footer>
+  </body>
 </html>
